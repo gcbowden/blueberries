@@ -1,0 +1,10 @@
+---
+title: "Blueberry"
+output: html_document
+---
+
+setwd("~/Documents/Work/Data")
+mydata = read.csv("blueberrydata.csv", na="0")
+
+date = as.Date(mydata$date, "%m/%d/%Y")
+
